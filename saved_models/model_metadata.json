@@ -1,0 +1,29 @@
+{
+  "saved_at": "2025-11-21T13:41:38.150686Z",
+  "notebook": "/mnt/data/air-quality-prediction.ipynb",
+  "features_regression": [
+    "SOi",
+    "Noi",
+    "Rpi",
+    "SPMi"
+  ],
+  "features_classification": [
+    "SOi",
+    "Noi",
+    "Rpi",
+    "SPMi"
+  ],
+  "saved_models": {
+    "regression": {
+      "linear_regression": "saved_models/linear_regression.joblib",
+      "decision_tree_regressor": "saved_models/decision_tree_regressor.joblib",
+      "random_forest_regressor": "saved_models/random_forest_regressor.joblib"
+    },
+    "classification": {
+      "logistic_regression": "saved_models/logistic_regression.joblib",
+      "decision_tree_classifier": "saved_models/decision_tree_classifier.joblib",
+      "random_forest_classifier": "saved_models/random_forest_classifier.joblib",
+      "knn_classifier": "saved_models/knn_classifier.joblib"
+    }
+  }
+}

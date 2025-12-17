@@ -1,0 +1,9 @@
+streamlit
+pandas
+numpy
+joblib
+plotly
+pydeck
+openpyxl
+scikit-learn
+
